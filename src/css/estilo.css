@@ -99,7 +99,7 @@ main .cartao-pokemon .tipo{
     border-radius: 10px;
 }
 
-.grama{
+.planta{
     background-color: #7ac74c;
 }
 
@@ -124,4 +124,15 @@ main .descricao{
     overflow-y: scroll;
     font-size: 14px;
     padding-right: 10px;
+}
+
+.nome{
+    background-color: #f3ef04fb;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.numero{
+    background-color: #f3ef04fb;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
