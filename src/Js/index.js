@@ -17,12 +17,12 @@ botaoAlterarTema.addEventListener("click", ()=>{
     if (modoEscuroEstaAtivo) {
       
         //8 - Trocando a imagem do botão de alterar tema, de lua para sol
-        imagemBotaoTrocarDeTema.setAtribute("src", "./src/img/sun.png")
+        imagemBotaoTrocarDeTema.setAttribute("src", "./src/img/sun.png")
 
     } else{
     
     //5 - Trocando a imagem do botão de alterar tema, de sol para lua
-        imagemBotaoTrocarDeTema.setAtribute("src", "./src/img/lua.png")
+        imagemBotaoTrocarDeTema.setAttribute("src", "./src/img/lua.png")
 
     //Objetivo 2 - Clicando no botão de alterar tema, caso o body ja tenha modo escuro, remover a classe para mudar para o modo claro, muidando a imagem para o sol
     }
